@@ -8,10 +8,39 @@ Python 3
 ## File Names (As Required)
 All program files are named using my name as instructed:
 
-- ArundhatiPatil-Program-1.py → Calculator using Class (Addition, Subtraction, Multiplication, Division)
-- ArundhatiPatil-Program-2.py → Generate odd number series until input a = x
-- ArundhatiPatil-Program-3.py → Generate grouped odd number series based on given pattern
-- ArundhatiPatil-Program-4.py → Count multiples of numbers 1 to 9 from a given list
+- ArundhatiPatil-Program-1.py → Create a small calculator which performs operations such as Addition, Subtraction, Multiplication and Division using class.
+  Calculator inputs :> ‘a’, ‘b’ and ‘type of operation’
+  Datatype :> ‘a’ = double, ‘b’ = double, ‘type of operation’ = string
+
+- ArundhatiPatil-Program-2.py → With a single integer as the input, generate the following until a = x [series of numbers as shown in below examples]
+ 
+  Output: (examples)
+    1) input a = 1, then output : 1
+    2) input a = 2, then output : 1, 3
+    3) input a = 3, then output : 1, 3, 5
+    4) input a = 4, then output : 1, 3, 5, 7
+    .
+    .
+    5) input a = x, then output : 1, 3, 5, 7, .......
+
+- ArundhatiPatil-Program-3.py →  With a single integer as the input, generate the following until a = x [series of numbers as shown in below examples]
+ 
+  Output: (examples)
+    1) input a = 1, then output : 1
+    2) input a = 2, then output : 1
+    3) input a = 3, then output : 1, 3, 5
+    4) input a = 4, then output : 1, 3, 5
+    5) input a = 5, then output : 1, 3, 5, 7, 9
+    6) input a = 6, then output : 1, 3, 5, 7, 9
+    .
+    .
+    7) input a = x, then output : 1, 3, 5, 7, .......
+      
+- ArundhatiPatil-Program-4.py → Get the total count of number listed in the dictionary which is multiple of [1,2,3,4,5,6,7,8,9]
+  (examples)
+  input: [1,2,8,9,12,46,76,82,15,20,30]
+  Output: 
+    {1: 11, 2: 8, 3: 4, 4: 4, 5: 3, 6: 2, 7: 0, 8: 1, 9: 1}
 
 ## Notes
 Each program file includes code comments explaining the logic and approach.
